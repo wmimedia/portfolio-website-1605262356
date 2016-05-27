@@ -1,0 +1,70 @@
+                
+                html, body{
+
+                  color:#ffffff;
+                  text-shadow: 1px 1px 0px #444444;
+
+                }
+                
+                .hero{
+
+                  background-color:#333333;
+                  background-image: url(../images/dc-bkgd-bw.jpg);
+                  background-position: center top; 
+                  background-size:cover;
+                  /*outline:100px solid red;
+                  height:100vh;*/
+                  display:flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  font-family: 'Coda', cursive, "century gothic", arial, sans-serif;
+                  height:300px;
+
+                }
+
+                .headshot:hover{
+
+                  transform: rotate(45deg);
+                  box-shadow: 0px 0px 100px 50px #fc0;
+
+                }
+
+
+
+          .nav li{
+
+                  outline: 1px solid #cccccc;
+                  list-style-type: none;
+                  background-color: #000000;
+                  transition: background-color 0.2s;
+
+                }
+
+                .nav li a{
+
+                  display: block;
+
+                }
+
+                .nav li a:hover{
+
+                  background-color:#990000;
+
+                }
+
+                #hero-heading{
+
+                  font-size: 60px;
+                }
+                #hero-subtitle{}
+
+                #section-about{
+
+                      background-color:#990000;
+
+                  }
+
+                footer{
+
+                  background-color: #000000;
+                }
